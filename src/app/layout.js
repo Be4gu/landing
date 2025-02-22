@@ -13,7 +13,10 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: 'Piñaton.com',
-  description: 'Created by Entrellaves'
+  description: 'Created by Entrellaves',
+  icons: {
+    icon: '/img-title.png' // Ruta de tu favicon
+  }
 }
 
 export default function RootLayout({ children }) {
