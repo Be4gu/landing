@@ -1,5 +1,5 @@
 import Countdown from './components/countdown'
-import { Twitch } from 'lucide-react'
+import { Twitch, BookText } from 'lucide-react'
 export default function Home() {
   return (
     <main className='bg-[#121212] min-h-screen bg-custom-background text-custom-white'>
@@ -8,7 +8,16 @@ export default function Home() {
           <h1 className='text-5xl md:text-7xl text-[#00B8D9] lg:text-8xl font-extrabold tracking-tight  animate-pulse'>¡EN PIÑATON.COM!</h1>
 
           <div className='max-w-2xl mx-auto space-y-6'>
-            <p className='text-xl md:text-2xl text-[#E0E0E0] font-semibold'>Prepárate para una nueva experiencia. Estamos a punto de lanzar algo increíble.</p>
+            <h2 className='text-2xl font-bold mb-4 text-[#E0E0E0]'>Quiero ser una piñata 🎉</h2>
+            <p className='text-lg mb-6 md:text-2xl text-[#E0E0E0]'>Rellena el formulario y creemos perfiles entre todos.</p>
+            <a
+              href='https://docs.google.com/forms/d/e/1FAIpQLScY3HfR0XVtDs0lMdDbXSlVtu1AFYrLQlzOykZ1yZA6sG-dyg/viewform?usp=header'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='relative text-[#E0E0E0] inline-flex items-center gap-3 p-3 border  transition-colors duration-300 hover:border-[#00B8D9] border-gray-300 rounded-lg hover:no-underline'
+            >
+              <span className='text-xl font-semibold'>✨ ¡Me apunto! ✨</span>
+            </a>
           </div>
 
           <div className='max-w-4xl mx-auto bg-[#1E1E1E] rounded-2xl p-8 border border-[#3A3A3A]'>
