@@ -21,8 +21,9 @@ export default function Home() {
           </div>
 
           <div className='max-w-4xl mx-auto bg-[#1E1E1E] rounded-2xl p-8 border border-[#3A3A3A]'>
-            <h2 className='text-2xl md:text-3xl font-bold mb-8 text-[#00B8D9]'>Nueva versión disponible en:</h2>
-            <Countdown targetDate='2025-03-02T20:00:00' />
+            <h2 className='text-2xl md:text-3xl font-bold mb-2 text-[#00B8D9]'>Nueva versión disponible en:</h2>
+            <p className='mb-8 text-[#E0E0E0]'>Estoy trabajando en una WIKI para que dejéis de ser unas piñatas andantes.</p>
+            <Countdown targetDate='2025-03-15T20:00:00' />
           </div>
           <div className='mt-12 space-y-4 max-w-2xl mx-auto text-[#E0E0E0]'>
             <p className='text-xl text-custom-secondary'>¡Puedes ver el desarrollo de la web en vivo en mi canal de Twitch! 🚀</p>
